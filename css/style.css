@@ -102,18 +102,12 @@ a {
 #planning {
   background-color: var(--purple);
   margin: 40px 0;
-
-  /* debug */
-  height: 200px;
 }
 
 #planning .strategic {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-
-  /* debug */
-  height: 200px;
 }
 
 #planning .card-right {
@@ -140,16 +134,10 @@ a {
 
 #testimonials {
   margin: 40px 0;
-
-  /* debug */
-  height: 200px;
 }
 
 #testimonials .container {
   text-align: center;
-
-  /* debug */
-  height: 200px;
 }
 
 #testimonials .text {
@@ -166,4 +154,23 @@ a {
 
   /* debug */
   height: 100px;
+}
+
+/* SECTION WORK W US */
+
+#work-w-us {
+  background-color: var(--purple);
+}
+
+#work-w-us .container {
+  color: white;
+  text-align: center;
+}
+
+#work-w-us .card {
+  display: flex;
+  padding: 1rem;
+
+  /* debug */
+  background-color: black;
 }
