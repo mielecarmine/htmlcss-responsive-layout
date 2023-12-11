@@ -73,6 +73,11 @@ img {
   padding: 25px;
 }
 
+#header #icon {
+  display: none;
+  padding: 25px;
+}
+
 /* MAIN */
 
 /* SECTION DEMO APP */
@@ -219,4 +224,40 @@ img {
 
 #footer .container {
   text-align: center;
+}
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 768px) {
+  /* HEADER */
+  #header nav {
+    display: none;
+  }
+
+  #header #icon,
+  #header .container .logo {
+    display: block;
+    padding: 15px;
+  }
+
+  /* SECTION PLANNING */
+
+  #planning .strategic {
+    flex-direction: column;
+  }
+
+  #planning .card-right {
+    align-self: auto;
+    margin-top: 1rem;
+  }
+
+  #planning .card-left {
+    margin-top: 1rem;
+  }
+
+  /* SECTION WORK W US */
+
+  #work-w-us .col-1-3 {
+    width: 50%;
+  }
 }
