@@ -160,6 +160,7 @@ a {
 
 #work-w-us {
   background-color: var(--purple);
+  margin: 40px 0;
 }
 
 #work-w-us .container {
@@ -174,3 +175,25 @@ a {
   /* debug */
   background-color: black;
 }
+
+/* SECTION ABOUT US */
+
+#about-us {
+  margin: 40px 0;
+}
+
+#about-us .content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#about-us .content .text {
+  width: 60%;
+}
+
+#about-us .content .img {
+  width: 30%;
+}
+
+/* SECTION GET STARTED */
