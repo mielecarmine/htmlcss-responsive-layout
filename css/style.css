@@ -16,10 +16,10 @@ img {
   max-width: 100%;
 }
 
-a {
+/* a {
   color: inherit;
   text-decoration: none;
-}
+} */
 
 /* UTILS */
 
@@ -197,3 +197,26 @@ a {
 }
 
 /* SECTION GET STARTED */
+
+#get-started {
+  background-color: var(--purple);
+  color: white;
+  margin: 40px 0;
+}
+
+#get-started .container {
+  text-align: center;
+}
+
+/* END OF MAIN */
+
+/* FOOTER */
+
+#footer {
+  background-color: #333333;
+  color: white;
+}
+
+#footer .container {
+  text-align: center;
+}
