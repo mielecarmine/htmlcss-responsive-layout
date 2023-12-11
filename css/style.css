@@ -206,7 +206,7 @@ img {
 #get-started {
   background-color: var(--purple);
   color: white;
-  margin: 40px 0;
+  /* margin: 40px 0; */
 }
 
 #get-started .container {
