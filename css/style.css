@@ -138,6 +138,32 @@ a {
 
 /* SECTION TESTIMONIALS */
 
+#testimonials {
+  margin: 40px 0;
+
+  /* debug */
+  height: 200px;
+}
+
 #testimonials .container {
   text-align: center;
+
+  /* debug */
+  height: 200px;
+}
+
+#testimonials .text {
+  margin-bottom: 40px;
+}
+
+#testimonials .card {
+  background-color: var(--purple);
+  color: white;
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  padding: 15px;
+
+  /* debug */
+  height: 100px;
 }
