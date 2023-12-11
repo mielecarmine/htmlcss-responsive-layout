@@ -77,9 +77,14 @@ a {
 
 /* SECTION DEMO APP */
 
+#demo-app {
+  margin: 40px 0;
+}
+
 #demo-app .card {
   background-color: var(--secondary-color);
   padding: 1rem;
+  height: 100%;
 }
 
 #demo-app .col-2-3 .card {
@@ -90,4 +95,49 @@ a {
 #demo-app .card-left,
 #demo-app .card-right {
   width: 50%;
+}
+
+/* SECTION PLANNING */
+
+#planning {
+  background-color: var(--purple);
+  margin: 40px 0;
+
+  /* debug */
+  height: 200px;
+}
+
+#planning .strategic {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  /* debug */
+  height: 200px;
+}
+
+#planning .card-right {
+  align-self: flex-end;
+  background-color: white;
+  margin-bottom: 1rem;
+  padding: 25px;
+  border-radius: 5%;
+
+  /* debug */
+  height: 50px;
+}
+
+#planning .card-left {
+  color: white;
+  padding: 25px;
+
+  /* debug */
+  height: 90px;
+  background-color: purple;
+}
+
+/* SECTION TESTIMONIALS */
+
+#testimonials .container {
+  text-align: center;
 }
