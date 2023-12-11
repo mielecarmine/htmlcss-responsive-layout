@@ -261,3 +261,39 @@ img {
     width: 50%;
   }
 }
+
+@media screen and (max-width: 570px) {
+  /* RESET COLUMNS */
+
+  .row {
+    flex-direction: column;
+  }
+
+  [class*="col"] {
+    width: 100%;
+  }
+
+  /* DEMO APP */
+
+  #demo-app .col-2-3 .card {
+    flex-direction: column;
+  }
+
+  /* WORK WITH US */
+
+  #work-w-us .col-1-3 {
+    width: 100%;
+  }
+
+  /* ABOUT US */
+
+  #about-us .content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #about-us .content .text,
+  #about-us .content .img {
+    width: auto;
+  }
+}
