@@ -2,6 +2,7 @@
   --primary-color: #0084fd;
   --secondary-color: #b5ddff;
   --purple: #9792e4;
+  --black: #353535;
 }
 
 body {
@@ -42,6 +43,22 @@ ul {
 
 p {
   line-height: 30px;
+}
+
+.img-round {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+  background-color: white;
+  color: var(--purple);
+  line-height: 100px;
+}
+
+.img-round img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* GRID */
@@ -186,6 +203,10 @@ p {
   margin: 40px 0;
 }
 
+#planning .container {
+  max-width: 1024px;
+}
+
 #planning .row {
   align-items: flex-end;
 }
@@ -197,31 +218,28 @@ p {
 #planning .card {
   padding: 1rem;
   background-color: white;
-  color: #353535;
+  color: var(--black);
   text-align: center;
-  width: 60%;
 }
 
-#planning img {
+/* #planning img {
   width: 70%;
-}
+} */
 
 #planning #arrow {
   padding: 5px 15px;
   background-color: var(--purple);
   border-radius: 50%;
+  height: inherit;
 }
 
 #planning .col-1-2 > img {
   margin: 100px 0;
 }
 
-#planning .col-1-2 > p {
-  width: 50%;
-}
-
 #planning h2 {
   margin-bottom: 40px;
+  font-size: 2.5rem;
 }
 
 #planning .card h3 {
@@ -233,18 +251,31 @@ p {
   margin: 30px 0;
 }
 
+#planning .card img {
+  height: 300px;
+}
+
 /* SECTION TESTIMONIALS */
 
 #testimonials {
   margin: 40px 0;
 }
 
-#testimonials .container {
+#testimonials .container .text {
   text-align: center;
+  line-height: 30px;
+  margin-bottom: 40px;
 }
 
-#testimonials .text {
-  margin-bottom: 40px;
+#testimonials .text span {
+  font-size: 1.2rem;
+  color: var(--black);
+}
+
+#testimonials .text h2 {
+  color: var(--purple);
+  font-size: 2.5rem;
+  margin: 40px 0;
 }
 
 #testimonials .card {
@@ -254,10 +285,32 @@ p {
   align-items: center;
   margin: 20px 0;
   padding: 15px;
-
-  /* debug */
-  height: 100px;
 }
+
+.col-left {
+  width: 30%;
+}
+
+.col-right {
+  width: 70%;
+  display: flex;
+}
+
+.col-right .test-text {
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+}
+
+.col-right .test-text i {
+  font-size: 1.5rem;
+  padding: 0 0.5rem;
+}
+
+/* #testimonials .test-img,
+#testimonials .test-text {
+  padding: 0 1rem;
+} */
 
 /* SECTION WORK W US */
 
