@@ -206,6 +206,33 @@ p {
   width: 70%;
 }
 
+#planning #arrow {
+  padding: 5px 15px;
+  background-color: var(--purple);
+  border-radius: 50%;
+}
+
+#planning .col-1-2 > img {
+  margin: 100px 0;
+}
+
+#planning .col-1-2 > p {
+  width: 50%;
+}
+
+#planning h2 {
+  margin-bottom: 40px;
+}
+
+#planning .card h3 {
+  margin: 30px 0;
+}
+
+#planning .card p {
+  font-style: oblique;
+  margin: 30px 0;
+}
+
 /* SECTION TESTIMONIALS */
 
 #testimonials {
