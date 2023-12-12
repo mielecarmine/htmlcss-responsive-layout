@@ -36,6 +36,10 @@ ul {
   padding: 0 15px;
 }
 
+[class*="card"] {
+  border-radius: 40px;
+}
+
 /* GRID */
 
 .row {
@@ -120,6 +124,7 @@ ul {
   background-color: var(--secondary-color);
   padding: 1rem;
   height: 100%;
+  text-align: center;
 }
 
 #demo-app .col-2-3 .card {
@@ -130,6 +135,21 @@ ul {
 #demo-app .card-left,
 #demo-app .card-right {
   width: 50%;
+}
+
+#demo-app .card > i {
+  font-size: 70px;
+  margin: 60px 0;
+}
+
+#demo-app .card > i,
+#demo-app .card h2 {
+  color: var(--primary-color);
+}
+
+#demo-app .card p {
+  margin: 40px 0;
+  line-height: 30px;
 }
 
 /* SECTION PLANNING */
